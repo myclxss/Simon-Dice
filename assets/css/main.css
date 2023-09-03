@@ -1,0 +1,86 @@
+body {
+    text-align: center;
+    background-color: #000000;
+    user-select: none;
+}
+
+#level-title {
+    padding-top: 50px;
+    font-size: 55px;
+    font-weight: 800;
+    font-family: 'Space Mono', monospace;
+    color: rgb(191, 191, 191);
+    letter-spacing: 1px;
+}
+
+#level-title span {
+    color: rgb(253, 239, 118);
+}
+
+.row {
+    display: inline-block;
+}
+
+.btn {
+    margin: 10px;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 10px solid rgb(29, 29, 29);
+    border-radius: 10%;
+}
+
+.game-over {
+    background-color: rgb(139, 0, 0);
+    opacity: 0.8;
+}
+
+.red {
+    background-image: linear-gradient(to top, #ff0844 0%, #ff6565 100%);
+}
+
+.green {
+    background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+}
+
+.blue {
+    background-image: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
+}
+
+.yellow {
+    background-image: linear-gradient(120deg, #f6d365 0%, #fdfb85 100%);
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+
+@media (max-width: 991px) {
+    body {
+        padding-top: 100px;
+    }
+
+    .btn {
+        height: 130px;
+        width: 130px;
+        border: 10px solid rgb(29, 29, 29);
+        border-radius: 10%;
+    }
+
+    #level-title {
+        padding-top: 50px;
+        font-size: 25px;
+        font-weight: 800;
+        font-family: 'Space Mono', monospace;
+        color: rgb(191, 191, 191);
+        letter-spacing: 1px;
+    }
+
+    .container {
+        display: inline-block;
+        width: 50%;
+        margin: 0px;
+
+    }
+}
